@@ -11,17 +11,25 @@
     background-size: cover;
 }
 .img-hero img{
-    width: 370px;
-    height: 350px;
-    transform: translate(36px, -6px);
-}
+    width: 360px;
+    height: 340px;
+    transform: translate(12%, -7%);
+  }
 .logo img{
     width: 100px;
-    margin: 20px 0 0 20px;
+    margin: 50px 0px 0px 30px;
 }
-.title-download{
-    font-size: 30px;
+
+.title-download {
+  font-size: 30px;
+  font-family: 'Bauhaus 93', sans-serif;
+  text-align: start;
+}
+
+@media screen and (max-width: 1500px) {
+  .title-download {
     text-align: center;
+  }
 }
 .title-section  {
     font-family: "Black Ops One", system-ui;
@@ -33,32 +41,30 @@
   }
   .img-download {
     width: 200px;
-    height: 70px;
-
-
+    height: 60px;
   }
 .img-download-app{
     width: 200px;
     height: 60px;
-
+    margin-top:10px;
 }
   .images-download{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    transform: translate(40px, 10px);
-  }
+    transform: translate(50px, 3%);
+    padding-bottom: 50px;
+   }
   .footer-logo{
     transform: translate(66px, 140px);  }
   .footer-section{
     background-image: url(../images/footer.svg);
     background-size: cover;
     width: 430px;
-    height: 308px;
-    margin: 40px auto;
+    height: 320px;
+    margin: 0px auto;
   }
   .info-title{
     font-size: 28px;
@@ -75,17 +81,15 @@
 .phone-num{
     color: #151453;
     font-size:18px;
-    font-weight: bold;
 
 }
 .info-mail-text{
     color: #151453;
     text-decoration: none;
     font-size: 17px;
-    font-weight: bold;
     margin: 0 4px;
 }
 .support-text{
     font-size: 19px;
     color: #151453;
-    font-weight: bold;}
+}
